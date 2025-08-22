@@ -1,0 +1,71 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+  }
+  
+  .products, .cart {
+    margin-top: 20px;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
+  button {
+    padding: 10px 10px;
+    cursor: pointer;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+  
+  .cart-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-list li {
+    margin: 5px 0;
+    padding: 5px;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  .container{
+    background-color:rgb(228, 228, 234);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    justify-content: space-evenly;
+    height: 70%;
+    text-align: center;
+    
+  }
+  #delete{
+    background:rgb(228, 76, 76) ;
+
+  }
+  #delete:hover {
+background: rgb(186, 49, 49);
+  }
